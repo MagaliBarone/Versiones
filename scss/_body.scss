@@ -1,0 +1,38 @@
+
+body {
+    background-color: #f6f0c4;
+    background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
+    font-family: 'Crimson Text', serif;
+    background-size: auto;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    body {
+        background-color: rgb(250, 154, 154);
+         }
+    h1 {
+        font-size: 20px;}
+    h2 {
+        font-size: 17px;}
+ }
+@media (min-width: 768px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(250, 154, 154);
+    }
+    h1 {
+        font-size: 30px;}
+    h2 {
+        font-size: 27px;}    
+}
+@media (min-width: 1200px) {  
+    body {
+        background-color:rgb(250, 154, 154);
+        width:100%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 37px;
+    } 
+}

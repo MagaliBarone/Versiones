@@ -1,0 +1,81 @@
+$bg-fondo:rgb(255, 196, 196);
+$color-fondo:#742c5c;
+
+%menu {
+    list-style-type: none;
+    padding: 0px; 
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+%li{
+    display: inline-block;
+    text-align: center;
+}
+h2 {
+    color: #742c5c;
+    font-weight: normal ;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration-line: unset;
+}
+h1 {
+    color: #742c5c;
+    font-weight: normal ;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: unset;
+}
+.prueba{
+    margin-left:330px;
+    display: flex;
+    justify-content: center;
+}
+.tercera {
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: bold ;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 10px;
+    word-spacing: 10px;
+    margin: 30px;
+
+}
+.menu {
+    @extend %menu;
+    background-color: $bg-fondo;
+    
+}
+.menu li {
+    @extend %li;
+    color: $color-fondo;
+}
+.menu li a {
+    color: #742c5c;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.menu li a:hover {
+    background-color: rgb(255, 182, 204);
+    color: rgb(252, 50, 91);
+}
+.logo {
+    margin-bottom: 100px;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        }
+    50% {
+        opacity: 1;
+        }
+    100% {
+      opacity: 0;
+        }
+}

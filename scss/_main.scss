@@ -1,0 +1,109 @@
+
+@mixin sizes{
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+@mixin img{
+    width: 70px;
+    height: 250px;
+    border: 2px double rgb(255, 173, 143) ;
+}
+@mixin fuente {
+    font-family: 'Crimson Text', serif;
+    font-size: 12;
+    font-style:inherit;
+}
+.fuente {
+    @include fuente;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    word-spacing: 2px;
+}
+.segunda {
+    font-family: 'Crimson Text', serif;
+    color: #742c5c;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 2;
+    word-spacing: 5px;
+    margin: 50px;
+    float: left;
+    justify-items: center;
+    justify-content: flex-start;
+    display: block;
+    flex-direction: column;
+}
+.segunda li {
+    list-style-type: none;
+}
+.segunda li a{
+    text-decoration: none;
+    color: #742c5c;
+}
+.segundaa:hover{
+    transform: scale(1.1, 1.1);
+}
+.caja2 {
+    @include sizes;
+      img{
+        @include img;
+      }    
+}
+.main{
+    font-family: 'Crimson Text', serif;
+    margin-left: 350px;
+    width: 500px;
+    text-align:justify;
+    font-size: 17px;
+    align-items: center;
+}
+.catering {
+    background-color: rgb(248, 207, 241);
+    width: 1000px;
+    height: 700px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+.div {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(253, 201, 180);
+    justify-content: center;
+    border: 2px solid coral;
+    font-size: 16px;
+    font-family:'PT Serif', serif;
+}
+.div li {
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    align-items: center;
+}
+.marg {
+    margin-left: 350px;
+    padding: 0px;
+    margin-top: 0px;
+}
+th {
+    font-family: 'PT Serif', serif;
+    font-style: oblique;
+    background-color: rgb(231, 148, 248);
+    font-size: 20px;
+}
+section {
+    @include fuente;
+    margin:50px;
+}
