@@ -63,15 +63,10 @@ body {
   text-align: center;
 }
 
-h2 {
-  color: #742c5c;
-  font-weight: normal;
-  text-align: left;
-  text-transform: uppercase;
-  -webkit-text-decoration-line: unset;
-          text-decoration-line: unset;
+.h2 {
+  margin:50px;
+  text-align: center;
 }
-
 h1 {
   color: #742c5c;
   font-weight: normal;
@@ -100,7 +95,8 @@ h1 {
   text-transform: uppercase;
   line-height: 10px;
   word-spacing: 10px;
-  margin: 30px;
+  margin-top: 50px;
+  margin-left: 60px;
 }
 
 .menu {
@@ -124,12 +120,10 @@ h1 {
 }
 
 .logo {
-  margin-bottom: 100px;
-  padding: 30px;
+  padding-top: 50px;
   text-align: center;
   width: 100%;
 }
-
 @-webkit-keyframes aparecer {
   0% {
     opacity: 0;
@@ -207,8 +201,8 @@ h1 {
 }
 
 .caja2 img {
-  width: 70px;
-  height: 250px;
+  width: 540px;
+  height: 350px;
   border: 2px double #ffad8f;
 }
 
