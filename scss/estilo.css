@@ -216,7 +216,14 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.uno {
+  font-family: 'Crimson Text', serif;
+  margin-left: 320px;
+  margin-bottom: 50px;
+  width: 700px;
+  text-align: justify;
+  font-size: 16px;
+}
 .catering {
   background-color: #f8cff1;
   width: 1000px;
@@ -251,7 +258,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 2px solid coral;
+  border: 2px solid rgb(253, 159, 203);
   font-size: 16px;
   font-family: 'PT Serif', serif;
 }
@@ -269,7 +276,7 @@ h1 {
 }
 
 .marg {
-  margin-left: 350px;
+  margin-left: 400px;
   padding: 0px;
   margin-top: 0px;
 }
