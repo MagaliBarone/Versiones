@@ -13,55 +13,6 @@ body {
   background-size: auto;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-  body {
-    background-color: #fa9a9a;
-  }
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1200px) {
-  body {
-    background-color: #fa9a9a;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 27px;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    background-color: #fa9a9a;
-    width: 100%;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 37px;
-  }
-}
-
-.menu {
-  list-style-type: none;
-  padding: 0px;
-  width: 80%;
-  max-width: 900px;
-  margin: 40px auto;
-}
-
-.menu li {
-  display: inline-block;
-  text-align: center;
-}
 
 .h2 {
   margin:50px;
@@ -99,31 +50,12 @@ h1 {
   margin-left: 60px;
 }
 
-.menu {
-  background-color: #ffc4c4;
-}
-
-.menu li {
-  color: #742c5c;
-}
-
-.menu li a {
-  color: #742c5c;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-}
-
-.menu li a:hover {
-  background-color: #ffb6cc;
-  color: #fc325b;
-}
-
 .logo {
   padding-top: 50px;
   text-align: center;
   width: 100%;
 }
+
 @-webkit-keyframes aparecer {
   0% {
     opacity: 0;
@@ -320,5 +252,131 @@ footer {
 .gradiente img {
   width: 20px;
   height: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: #fa9a9a;
+    width: auto;
+  }
+  td {
+    width: auto;
+  }
+  h1 {
+    height: auto;
+    margin-left: auto;
+  }   
+  .segunda {
+    font-size: 20px;
+  }
+  .caja2 img {
+    max-width: 100%;
+    max-height: 100%; 
+  }
+  .prueba {
+    width: 30%;
+    margin-left: auto;
+  }
+  .uno {
+    width: auto;
+    margin-left: 30px;
+    padding: 0;
+  }
+  .marg {
+    width: auto;
+    margin-left:25px;
+    padding: 0;
+    display: flex;
+  }
+  .catering {
+    width: auto;
+    margin: auto;
+    height: auto;
+    display: flex;
+    margin-left: 25px;
+  }
+  .div {
+    width: 30%;
+    margin: 0;
+    height: 30%;
+  }
+  .main {
+    width: auto;
+    margin: 50px;
+    height: auto;
+    display: flex;
+  }
+  .caja2{
+    margin: auto;
+    height: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background-color: #fa9a9a;
+    width: 90%;
+    max-width: 1024px;
+  }
+  h1 {
+    height: auto;
+    margin-left: 250px;
+  }
+  .segunda {
+    font-size: 25px;
+  }
+  .prueba {
+    width: auto;
+    margin-left: 150px;
+  }
+  .caja2 img {
+    display: flex;
+    margin: 0;
+    max-width: 100%;
+  }
+  .uno {
+    width: 60%;
+    margin-left: 250px;
+    padding: 0;
+  }
+  .marg {
+    width: auto;
+    margin-left:250px;
+    padding: 0;
+    display: flex;
+  }
+  .catering {
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    height: auto;
+    display: flex;
+  }
+  .div {
+    width: 50%;
+    margin: 0;
+    height: 50%;
+  }
+  .main {
+    width: auto;
+    margin-left: 250px;
+    height: auto;
+    display: flex;
+  }
+  .caja2{
+    margin: auto;
+    height: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: #fa9a9a;
+    width: auto;
+  }
+  main {
+    width: auto;
+  }
+  h1 {
+    height: auto;
+  }   
 }
 /*# sourceMappingURL=estilo.css.map */
